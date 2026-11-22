@@ -4,4 +4,3 @@ typedef struct{
   int cols;
   double** temperature;
 }Plate;
-

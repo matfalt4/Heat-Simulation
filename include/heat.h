@@ -8,6 +8,8 @@ typedef struct{
 }Plate;
 
 Plate* create_plate(int rows, int cols, double initial_temp);
+void free_plate(Plate* plate);
+
 
 
 #endif

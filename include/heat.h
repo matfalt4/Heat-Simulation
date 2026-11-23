@@ -7,4 +7,7 @@ typedef struct{
   double** temperature;
 }Plate;
 
+Plate* create_plate(int rows, int cols, double initial_temp);
+
+
 #endif
